@@ -36,6 +36,7 @@
     margin: 0.4rem;
     width: 20rem;
     border-radius: 3rem;
+    cursor: pointer;
 }
 .workBtn{
   margin: 3rem 0;  
