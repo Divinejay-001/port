@@ -15,7 +15,7 @@ align-items: center;
 justify-content:space-between;
 position: sticky;
 top: 0;
-z-index: 3;
+z-index: 1;
 }
 .desktopMenuListItem{
     margin: 1rem;
@@ -47,4 +47,16 @@ z-index: 3;
     color: yellow;
     border-bottom:3px solid yellow;
     padding-bottom: 0.5rem;
+}
+@media screen and (max-width:820px){
+    .desktopMenuListItem{
+        font-size: 1.5rem;
+    }
+    .desktopMenuBtn{
+        font-size: 1.5rem;
+    }
+    .desktopMenuImg{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 }

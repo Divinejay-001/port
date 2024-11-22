@@ -139,3 +139,217 @@ cursor: pointer;
     padding-bottom: 0.1rem;
     border-bottom:3px solid yellow;
   } 
+  @media screen and (max-width:480px){
+  .clients{
+    margin-left: 12rem;
+  }
+  .clientsDesc{
+    font-size: 1.7rem;
+    font-weight: normal;
+  }
+  .clientImgs{
+    margin-top: 2rem;
+  }
+  #contact{
+    margin-left: 11rem;
+  }
+  .contactDesc{
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .name{
+    font-size: 2rem;
+  }
+  .email{
+    font-size: 2rem;
+  }
+  .msg{
+    font-size: 2rem;
+  }
+  .submitBtn{
+    font-size: 2rem;
+  }
+  .socialMediaLink{
+    color:white;
+    font-size: 3rem;
+  }
+}
+  @media screen and (max-width:430px){
+  .clients{
+    margin-left: 10rem;
+  }
+  .clientsDesc{
+    font-size: 1.5rem;
+    font-weight: normal;
+    width:550px;
+  }
+  .clientImg{
+    margin-top: 1rem;
+    width: 5rem;
+  }
+  #contact{
+    margin-left: 11rem;
+  }
+  .contactDesc{
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .name{
+    font-size: 1.5rem;
+  }
+  .email{
+    font-size: 1.5rem;
+  }
+  .msg{
+    font-size: 1.5rem;
+  }
+  .submitBtn{
+    font-size: 2rem;
+  }
+  .socialMediaLink{
+    color:white;
+    font-size: 3rem;
+  }
+}
+  @media screen and (max-width:820px){
+  .clients{
+    margin-left: 2rem;
+  }
+  .clientsDesc{
+    font-size: 1.5rem;
+    font-weight: normal;
+    width:550px;
+  }
+  .clientImg{
+    margin-top: 1rem;
+    width: 5rem;
+  }
+  #contact{
+    margin-left: 2rem;
+  }
+  .contactDesc{
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .name{
+    font-size: 1.5rem;
+  }
+  .email{
+    font-size: 1.5rem;
+  }
+  .msg{
+    font-size: 1.5rem;
+  }
+  .submitBtn{
+    font-size: 2rem;
+  }
+  .socialMediaLink{
+    color:white;
+    font-size: 3rem;
+  }
+}
+  @media screen and (max-width:390px){
+  .clients{
+    margin-left: 2rem;
+  }
+  .clientsDesc{
+    font-size: 1rem;
+    font-weight: normal;
+    width:370px;
+    margin-left: -1rem;
+
+  }
+  .clientImg{
+    margin-top: 1rem;
+    width: 3.5rem;
+    margin-left: -1rem;
+  }
+  #contact{
+    margin-left: 2rem;
+  }
+  .contactDesc{
+    font-size: 1rem;
+    margin-top: 2rem;
+    width: 280px;
+    margin-left: -1.8rem;
+  }
+  .name{
+    font-size: 0.8rem;
+    margin-left: -1.8rem;
+
+  }
+  .email{
+    font-size: 0.8rem;
+    margin-left: -1.8rem;
+
+  }
+  .msg{
+    font-size: 0.8rem;
+    margin-left: -1.8rem;
+
+  }
+  .submitBtn{
+    font-size: 1rem;
+  }
+  .socialMedia{
+    margin-left: -1.8rem;
+  }
+  .socialMediaLink{
+    color:white;
+    font-size: 1.5rem;
+  }
+}
+  @media screen and (max-width:360px){
+  .clients{
+    margin-left: 2rem;
+  }
+  .clientsDesc{
+    font-size: 1rem;
+    font-weight: normal;
+    width:340px;
+    margin-left: -1rem;
+
+  }
+  .clientImg{
+    margin-top: 1rem;
+    width: 5rem;
+    margin-left: -1rem;
+  }
+  #contact{
+    margin-left: 2rem;
+  }
+  .contactDesc{
+    font-size: 0.95rem;
+    margin-top: 2rem;
+    width: 1o0px;
+    margin-left: -1.8rem;
+  }
+  .name{
+    font-size: 1rem;
+    margin-left: -1.8rem;
+padding: 1rem 3rem;
+  }
+  .email{
+    font-size: 1rem;
+    margin-left: -1.8rem;
+    padding: 1rem 3rem;
+
+  }
+  .msg{
+    font-size: 1rem;
+    margin-left: -1.8rem;
+    padding: 1rem 4rem;
+
+  }
+  .submitBtn{
+    font-size: 0.9rem;
+    margin-left: -1rem;
+  }
+  .socialMedia{
+    margin-left: -1.8rem;
+  }
+  .socialMediaLink{
+    color:white;
+    font-size: 1.5rem;
+  }
+}

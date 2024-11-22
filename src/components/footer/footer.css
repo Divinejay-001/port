@@ -8,3 +8,38 @@
     font-weight: 300;
     font-size: small;
 }
+@media screen and (max-width:480px){
+
+.footer{
+    width: 117vw;
+    margin-left: 5rem;
+    font-size: 1.4rem;
+}}
+@media screen and (max-width:430px){
+
+.footer{
+    width: 117vw;
+    margin-left: 2.5rem;
+    font-size: 1rem;
+}}
+@media screen and (max-width:820px){
+
+.footer{
+    width: 117vw;
+    margin-left: -2.2rem;
+    font-size: 1.5rem;
+}}
+@media screen and (max-width:390px){
+
+.footer{
+    width: 117vw;
+    margin-left: -2.2rem;
+    font-size: 1rem;
+}}
+@media screen and (max-width:360px){
+
+.footer{
+    width: 107vw;
+    margin-left: -1.5rem;
+    font-size: 0.8rem;
+}}

@@ -50,9 +50,84 @@
     border: 2px solid yellow;
     box-shadow: 0 0 20px yellow;
 }
-@media screen and (max-width: 585px){
+@media screen and (max-width: 480px){
    .worksImg{
     height: 48vw;
- 
+ width: 13rem;
 } 
+.worksImgs{
+
+}
+#works{
+    margin-left: 7rem;
+}
+.workDesc{
+    font-size: 2rem;
+    width: 600px;
+    margin-block: 0.5rem;
+}
+.workBtn{
+    font-size: 2.5rem;
+}
+}
+@media screen and (max-width: 430px){
+   .worksImg{
+    height: 45vw;
+ width: 10rem;
+} 
+.worksImgs{
+
+}
+#works{
+    margin-left: 5rem;
+}
+.workDesc{
+    font-size: 1.5rem;
+    width: 550px;
+    margin-block: 0.5rem;
+}
+.workBtn{
+    font-size: 2.5rem;
+}
+}
+@media screen and (max-width: 820px){
+   .worksImg{
+    height: 30vw;
+ width: 12rem;
+} 
+.worksImgs{
+
+}
+#works{
+    margin-left: 1.5rem;
+}
+.workDesc{
+    font-size: 1.8rem;
+    width: 600px;
+    margin-block: 0.5rem;
+}
+.workBtn{
+    font-size: 2.5rem;
+}
+}
+@media screen and (max-width: 390px){
+   .worksImg{
+    height: 30vw;
+ width: 7rem;
+} 
+.worksImgs{
+    margin-left: 1.5rem;
+
+}
+#works{
+    margin-left: -1rem;
+}
+.workDesc{
+    font-size: 1rem;
+    width: 300px;
+    margin-block: 0.5rem;
+}
+.workBtn{
+    font-size: 2rem;
+}
 }
