@@ -461,3 +461,57 @@ padding: 1rem 3rem;
     font-size: 1.5rem;
   }
 }
+  @media screen and (max-width:390px){
+  .clients{
+    margin-left: 2rem;
+  }
+  .clientsDesc{
+    font-size: 0.8rem;
+    font-weight: normal;
+    width:335px;
+    margin-left: -1rem;
+
+  }
+  .clientImg{
+    margin-top: 1rem;
+    width: 5rem;
+    margin-left: -1rem;
+  }
+  #contact{
+    margin-left: 2rem;
+  }
+  .contactDesc{
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    width: 100px;
+    margin-left: -1.8rem;
+  }
+  .name{
+    font-size: 1rem;
+    margin-left: -1.8rem;
+padding: 1rem 3rem;
+  }
+  .email{
+    font-size: 1rem;
+    margin-left: -1.8rem;
+    padding: 1rem 3rem;
+
+  }
+  .msg{
+    font-size: 1rem;
+    margin-left: -1.8rem;
+    padding: 1rem 4rem;
+
+  }
+  .submitBtn{
+    font-size: 0.9rem;
+    margin-left: -1rem;
+  }
+  .socialMedia{
+    margin-left: -1.8rem;
+  }
+  .socialMediaLink{
+    color:white;
+    font-size: 1.5rem;
+  }
+}
