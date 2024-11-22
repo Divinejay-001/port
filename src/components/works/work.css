@@ -176,3 +176,27 @@
     margin-left: 1rem;
 }
 }
+@media screen and (max-width: 429px){
+   .worksImg{
+    height: 30vw;
+ width: 6.5rem;
+} 
+.worksImgs{
+    margin-left: 1.5rem;
+    padding: 0.5rem;
+
+}
+#works{
+    margin-left: -1rem;
+}
+.workDesc{
+    font-size: 1.2rem;
+    width: 290px;
+    margin-block: 0.5rem;
+}
+.workBtn{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+}
