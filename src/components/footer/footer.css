@@ -43,3 +43,10 @@
     margin-left: -1.5rem;
     font-size: 0.8rem;
 }}
+@media screen and (max-width:428px){
+
+.footer{
+    width: 107vw;
+    margin-left: -1.5rem;
+    font-size: 0.8rem;
+}}

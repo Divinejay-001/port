@@ -226,3 +226,19 @@ margin-right: 4rem;
         width: 20rem;
        }   
 }
+@media screen and (max-width:428px){
+    #intro{
+        /* display: flex; */
+        right:-1vw;
+      gap: 9rem;  
+    }
+   .introContent{
+    margin-right: -4rem;
+    font-size: 1.5rem;
+    
+       } 
+       .introPara{
+        font-size: 1rem;
+        width: 20rem;
+       }   
+}
