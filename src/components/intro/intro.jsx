@@ -10,7 +10,9 @@ const Intro = () => {
   <span className="hello">Hello</span>
   <span className="introText">I'm <span className="introName">Divine</span><br />Website developer</span>
   <p className="introPara">I am a skilled web developer with experience in creating <br /> visual website</p>
-  <Link><button className="btn"><img src={btnImg} alt="Hire me"  className='btnImg'/>Hire Me</button></Link>
+  <Link><button className="btn"onClick={()=>{
+      document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
+    }}><img src={btnImg} alt="Hire me"  className='btnImg'/>Hire Me</button></Link>
 </div>
 <img src={bg} alt="Profile" className="bg" />
     </section>
