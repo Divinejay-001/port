@@ -11,5 +11,5 @@ body{
     color: white;
     overflow: hidden;
     overflow-y: scroll;
-    
+    user-select: none;
 }
