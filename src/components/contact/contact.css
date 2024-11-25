@@ -561,6 +561,8 @@ padding: 1rem 3rem;
   .submitBtn{
     font-size: 2rem;
     margin-left: -1rem;
+    color: black;
+
   }
   .socialMedia{
     margin-left: -1.8rem;
@@ -615,7 +617,6 @@ padding: 1rem 3rem;
   .submitBtn{
     font-size: 0.9rem;
     margin-left: -1rem;
-    color: black;
   }
   .socialMedia{
     margin-left: -1.8rem;
