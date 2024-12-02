@@ -23,15 +23,35 @@ const Contact = () => {
     //         },
     //       );
     //   };
-    const sendEmail = (e)=>{
-      e.preventDefault();
-      emailjs.sendForm('service_o2mv64m', 'template_wnxfh8q', form.current, '-6O_x7lhtYIqwaClF')
-      .then((result)=>{
-console.log(result.text);
-      },(error) =>{
-         console.log(error.text);
-            })
-    }
+    const sendEmail = (e) => {
+        e.preventDefault();
+      
+        // Disable the submit button to prevent duplicate submissions
+        const submitButton = document.querySelector('.submitBtn');
+        submitButton.disabled = true;
+      
+        emailjs
+          .sendForm('service_o2mv64m', 'template_wnxfh8q', form.current, '-6O_x7lhtYIqwaClF')
+          .then(
+            (result) => {
+              console.log(result.text);
+              // Alert the user that the message has been sent
+              alert("Message sent successfully!");
+              // Reset the form after submission
+              form.current.reset();
+            },
+            (error) => {
+              console.log(error.text);
+              // Alert the user in case of failure
+              alert("Failed to send message, please try again later.");
+            }
+          )
+          .finally(() => {
+            // Re-enable the submit button after the request is complete
+            submitButton.disabled = false;
+          });
+      };
+      
   return (
 <section id="contactPage">
     <div className="clients">
